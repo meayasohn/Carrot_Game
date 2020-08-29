@@ -1,0 +1,36 @@
+:root {
+  /*    Color  */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-btn-border: black;
+
+    /* line-size */
+    --btn-border: 2px;
+}  
+
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.play__and__stop {
+  /* display: table;
+  padding: 7px 15px 8px 15px;
+  border: none;
+  font-family:"open_sans_lightregular"; */
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #f5db7f;
+  font-size: 45px;
+  /* border: var(--btn-border) solid var(--color-btn-border); */
+  border: 5px solid black;
+  padding: 10px;
+  border-radius:20%;;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.9;
+}
