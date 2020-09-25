@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrot Game- Meaya's first project</title>
-  <script src="https://kit.fontawesome.com/9eb162ac0d.js" crossorigin="anonymous"></script>
-  <script src="main.js" defer></script>
-  <link rel="stylesheet" href="style.css">
-  <embed src="/sound/bg.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" />
-</head>
-<body>
-  <div class="play__and__stop"><i class="fas fa-play"></i></div>
-  <div class="timer"></div>
-  <div class="carrot__count"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrot ame- Meaya's first project</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <embed src="/soundbg.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" /> -->
+    <script src="src/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      defer
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <section class="game">
+      <hearder class="game__header">
+        <button class="game_play"><i class="fas fa-play"></i></button>
+        <span class="display_timer"> 00:00 </span>
+        <span class="game_count"> 9</span>
+      </hearder>
+
+      <section class="game_field"></section>
+    </section>
+    <section class="popup-field popup-field-hide">
+      <button class="reply"><i class="fas fa-redo-alt"></i></button>
+      <span class="message_reply">reply? </span>
+    </section>
+  </body>
 </html>
