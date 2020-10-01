@@ -84,13 +84,11 @@ function displayTimerandScore(displayMode) {
 }
 
 function displayPopupField(displayMode) {
-  console.log(`display mode = ${displayMode}`);
+  // console.log(`display mode = ${displayMode}`);
 
   if (displayMode) {
-    console.log("true");
     fieldPopup.classList.remove("popup-field-hide");
   } else {
-    console.log("false");
     fieldPopup.classList.add("popup-field-hide");
   }
 }
@@ -163,7 +161,7 @@ function stopSound(sound) {
 
 //////////////////   Init Game  /////////////////////////////
 function initGame() {
-  console.log(fieldRect);
+  // console.log(fieldRect);
   field.innerHTML = ``;
 
   addItem("carrot", CARROT_COUNT, "img/carrot.png");
@@ -185,7 +183,7 @@ function addItem(className, count, imgPath) {
     const x = randomNumber(x1, x2);
     const y = randomNumber(y1, y2);
 
-    console.log(`x = ${x}, y=${y}`);
+    // console.log(`x = ${x}, y=${y}`);
 
     item.style.left = `${x}px`;
     item.style.top = `${y}px`;

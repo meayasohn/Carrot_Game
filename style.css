@@ -11,7 +11,9 @@
   --size-font-play: 50px;
   --size-font-timer: 100px;
   --size-font-count: 50px;
+  --size-font-title: 40px;
 }
+
 body {
   text-align: center;
   background-color: black;
@@ -23,6 +25,7 @@ button {
   cursor: pointer;
 }
 
+/* Field : Game play */
 .game {
   width: 800px;
   height: 500px;
@@ -94,6 +97,7 @@ button {
   /* opacity: 0.4; */
 }
 
+/* Field : Pop Mode */
 .popup-field {
   display: block;
   width: 400px;
@@ -135,4 +139,18 @@ button {
 .carrot:hover,
 .bug:hover {
   transform: scale(1.1);
+}
+
+/* Field : Pop Mode */
+.game_title{
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border-color: var(--color-white);
+  border-radius: 10px;
+  color: pink; 
+  font-size: 40px;
 }
