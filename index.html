@@ -6,7 +6,7 @@
     <title>Carrot Game</title>
     <link rel="stylesheet" href="style.css" />
     <!-- <embed src="/soundbg.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" /> -->
-    <script src="src/main.js" defer></script>
+    <script type="module" src="src/main.js" defer></script>
     <script
       src="https://kit.fontawesome.com/9eb162ac0d.js"
       defer
@@ -18,15 +18,19 @@
     <section class="game">
       <hearder class="game__header">
         <button class="game_play"><i class="fas fa-play"></i></button>
-        <span class="display_timer"> 00:00 </span>
+        <span class="game_timer"> 00:00 </span>
         <span class="game_count"> 9</span>
       </hearder>
       <section class="game_field"></section>
     </section>
 
-    <section class="popup-field popup-field-hide">
-      <button class="reply"><i class="fas fa-redo-alt"></i></button>
-      <span class="message_reply">reply? </span>
+    <section class="pop-up hide">
+      <header>
+        <button class="pop-up__refresh">
+          <i class="fas fa-redo"></i>
+        </button>
+        <span class="pop-up__message">You have WON!!!</span>
+      </header>
     </section>
 
     <section class="game_title">Carrot Game</section>
