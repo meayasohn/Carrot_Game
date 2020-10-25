@@ -1,9 +1,10 @@
-:root {
+:root{
   /*    Color  */
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-black: black;
-  --color-pink: #fc90f5;
+  /* --color-pink: #fc90f5; */
+  --color-pink: pink;
 
   /* Size */
   --size-btn: 50px;
@@ -49,7 +50,8 @@ button {
   font-size: 25px;
   border: 4px solid black;
   border-radius: 10px;
-  background-color: var(--color-pink, pink);
+  /* background-color: var(--color-pink, pink); */
+  background-color: var(--color-pink); 
   margin: 20px;
   transition: transform 300ms ease-in;
 }
